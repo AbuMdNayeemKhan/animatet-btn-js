@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.text-btn {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+  padding: 30px;
+  cursor: pointer;
+}
+.text-btn a {
+  color: red;
+}
+.text-btn .relative-btn {
+  position: relative;
+}
+.text-btn .relative-btn .khushi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-delay: 0;
+}
+.text-btn .relative-btn .khushi.active {
+  top: 0;
+  left: -100px;
+  opacity: 1;
+}
+.text-btn .relative-btn .sukhi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-delay: 100ms;
+}
+.text-btn .relative-btn .sukhi.active {
+  top: 30px;
+  left: -80px;
+  opacity: 1;
+}
+.text-btn .relative-btn .sumi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-delay: 200ms;
+}
+.text-btn .relative-btn .sumi.active {
+  top: 60px;
+  left: -50px;
+  opacity: 1;
+}
+.text-btn .relative-btn .rumi {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition-duration: 300ms;
+  transition-delay: 300ms;
+}
+.text-btn .relative-btn .rumi.active {
+  top: 70px;
+  left: 0px;
+  opacity: 1;
+}
+.text a {
+  text-decoration: none;
+}
+.text a h1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  text-transform: lowercase;
+  color: rgb(255, 0, 0);
+}/*# sourceMappingURL=style.css.map */
